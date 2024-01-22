@@ -677,9 +677,21 @@ i.ri-instagram-line{
     margin-bottom: 10px;
 }
 .right-content {
-    background-color: #081424;
+    background-color: #a6b7ce;
     width: 50%;
     float: right;
+    height: 385px;
+    overflow: hidden;
+}
+.right-content1 {
+    background-color: #09101b;
+    width: 50%;
+    float: right;
+    height: 385px;
+    overflow: hidden;
+}
+.content img {
+    width: 100%;
 }
 section.raw-structure {
     width: 100%;
