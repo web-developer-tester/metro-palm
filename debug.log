@@ -74,15 +74,3 @@
 [0105/110700.419:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0105/110705.441:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0105/110710.459:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0118/234031.949:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103330.884:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103335.899:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103340.900:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103345.919:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103350.938:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103355.949:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103400.967:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103405.983:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0119/103409.713:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
-[0120/103521.314:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
-[0120/103521.330:ERROR:command_buffer_proxy_impl.cc(105)] ContextResult::kTransientFailure: Shared memory region is not valid

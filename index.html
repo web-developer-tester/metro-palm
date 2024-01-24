@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="main">
-        <div data-scroll data-scroll-speed="-5" id="page1">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link defer href="https://d1ttqxosekmk9r.cloudfront.net/argus/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+   </head>
+   <style>
+       #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+   </style>
+
+   <body>
+      <div id="main">
+         <div data-scroll data-scroll-speed="-5" id="page1">
+             <video id="background-video" src="123.mp4" autoplay loop muted ></video>
             <header>
-                <img src="./logo.png" alt="">
-                <div id="right-nav">
-                  <button>Contact Us</button>
+               <img src="./logo.png" alt="">
+               <div id="right-nav">
+                  <a href>Book Now</a>
                   <button class="nav-toggle">
                      <i class="ri-menu-line"></i>
                      <nav role="navigation">
                         <i class="ri-close-line nav-toggle"></i>
-                       <ul>
+                        <ul>
                         <li><a href="index.html">Home</a></li>
-                           <li><a href="vision-mission.html">Vision & Mission</a></li>
+                           <li><a href="about-us.html">About Us</a></li>
                            <li><a href="unmasking-maker.html">UNMASKING THE MAKER </a></li>
                            <li><a href="brand-legacy.html">Brand Legacy</a></li>
                            <li><a href="posibility.html">POSSIBILITIES</a></li>
@@ -35,15 +47,22 @@
                </div>
             </header>
             <div class="bottom-page1">
-                <h1>The <br>Metro Palms <br>International <br> "Business Headquarters <br>of <br> Odisha"</h1>.
+               <h1>The 
+                  <br>Metro Palms <br>International
+               </h1>
+                  <h4> "Business Headquarters of  Odisha"
+                  </h4>
+                  <a href="">Learn More</a>
             </div>
-            <video src="MY121-2.mp4" autoplay loop muted ></video>
-        </div>
-        <div id="page2">
+           
+         </div>
+         <div id="page2">
             <h2>CHECK US OUT! </h2>
             <h1>The Metro Palms “International” stands tall as Odisha's sole 27-storeyed masterpiece, featuring a helipad and a two-level basement, crowned by a soaring 90-meter mixed-use tower blending retail and IT/ITES office spaces and an elegant 5 star hotel with a rooftop restaurant.. It's a game-changer, offering a vibrant luxury retail haven and cutting-edge office spaces that set new standards in India.
-
             </h1>
+        </div>
+        <div id="page3">
+            <canvas></canvas>
         </div>
         <div class="container">
                 <div class="bg-light rounded p-3">
@@ -63,13 +82,14 @@
         <div id="page4">
             <h3>VALUE SYSTEM</h3>
             <h1>The Metro Palms “International” operates to the drill of pure, authentic business with a strong business philosophy catering to inclusivity. We believe in laying an amalgamation (Wedding Destination, IT/ITES, Luxury Retail) ground for all uber business groups to meet, join hands, serve the state and walk the future into a time of growth and great heights !
-The Metro Builders Group has taken the project. The Metro Palms “International" to the highest standards with style, elegance and opulence that set up a symbol for Odisha. The Metro Palms “International” is the trijunction of Puri, Bhubaneswar, Konark & Cuttack.
-
-</h1>
+The Metro Builders Group has taken the project. The Metro Palms “International" to the highest standards with style, elegance and opulence that set up a symbol for Odisha. The Metro Palms “International” is the trijunction of Puri, Bhubaneswar, Konark & Cuttack.</h1>
         </div>
+        <!-- <div id="page5">
+            <canvas></canvas>
+        </div> -->
         <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                    <h1 class="mb-2 mt-4" style="color: #081424;">Property Types</h1>
+                    <h1 class="mb-2 mt-4" style="color: #fff;">Property Types</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -137,8 +157,7 @@ The Metro Builders Group has taken the project. The Metro Palms “International
         <div id="page6">
             <h3>BRAND PHILOSOPHY</h3>
             <h1>The Metro Palms “International” operates to the drill of pure, authentic business with a strong business philosophy catering to inclusivity. We believe in laying an amalgamation (Wedding Destination, IT/ITES, Luxury Retail) ground for all uber business groups to meet, join hands, serve the state and walk the future into a time of growth and great heights !
-The Metro Builders Group has taken the project. The Metro Palms “International" to the highest standards with style, elegance and opulence that set up a symbol for Odisha.
-</h1>
+The Metro Builders Group has taken the project. The Metro Palms “International" to the highest standards with style, elegance and opulence that set up a symbol for Odisha.</h1>
         </div>
         <!-- <div id="page8">
             <div class="page8-bottom">
@@ -170,20 +189,10 @@ The Metro Builders Group has taken the project. The Metro Palms “International
                     <p>The Magma Index provides valuable insight for decision-making regarding data-sharing, service-creating, and operational/environmental expectations.</p>
                 </div>
             </div>
-        </div> --> 
-        <section class="raw-structure">
+        </div> -->
+        <div class="raw-structure">
             <div class="left-img">
                 <img src="metro-palm.jpeg" alt="" title="">
-            </div>
-            <div class="right-content">
-                <div class="content"> <h1>Brand</h1>
-                    <img src="logo-lamac-sin-fondo.png">
-                </div>
-            </div>
-        </section>
-        <section class="raw-structure">
-            <div class="left-img">
-                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Bhubaneswar,%20Odisha+(The%20metro%20palm)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></div>
             </div>
             <div class="right-content1">
                 <div class="adress"> <h1>Get in touch</h1>
@@ -191,40 +200,42 @@ The Metro Builders Group has taken the project. The Metro Palms “International
                     <p><i class="ri-phone-fill"></i>9830071457, 9147008714</p>
                     <p><i class="ri-mail-fill"></i>info@metropalms.com</p></div>
             </div>
-        </section>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="social-media"><a href=""><i class="ri-facebook-fill"></i>Facebook</a></div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="social-media"><a href=""><i class="ri-instagram-line"></i>Instagram</a></div>
-                    </div>
-                    <div class="col-md-4">
-                       <div class="social-media"> <a href=""><i class="ri-whatsapp-line"></i>Whatsapp</a></div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="copy-right">
-                            <p>Copyright © , All rights reserved Developed By www.influidity.com </p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div id="page14">
+            <div class="page14-inner">
+                <h1>Twitter</h1>
+                <i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+            </div>
+            <div class="page14-inner">
+                <h1>LinkedIn</h1>
+                <i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+
+            </div>
+            <div class="page14-inner">
+                <h1>Instagram</h1>
+                <i class="ri-arrow-right-up-line"></i>
+                <div class="center14"></div>
+
             </div>
         </div>
-    </div>
-    <script>
-document.querySelector('video').playbackRate = 0.2;
-</script> 
- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
- <link rel='stylesheet' href="https://images.odishatv.in/assets/css/owl.carousel.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://images.odishatv.in/assets/js/jquery-3.6.0.min.js"></script>
- <script src="https://images.odishatv.in/assets/js/jquery.unveil.js"></script>
+      </div>
+      <script>
+         var x = document.getElementById("myVideo");
+         
+         function setPlaySpeed() { 
+           x.playbackRate = 0.1;
+         } 
+      </script> 
+      <script src="https://d1ttqxosekmk9r.cloudfront.net/argus/bootstrap.min.js"></script>
+      <link rel='stylesheet' href="https://images.odishatv.in/assets/css/owl.carousel.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://images.odishatv.in/assets/js/jquery-3.6.0.min.js"></script>
+      <script src="https://images.odishatv.in/assets/js/jquery.unveil.js"></script>
       <script src="https://images.odishatv.in/assets/js/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
-</body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="script.js"></script>
+   </body>
 </html>
