@@ -74,7 +74,7 @@ img.logo-img {
 }
 .bottom-page1{
     position: absolute;
-    bottom: 5%;
+    bottom: 26%;
     height: 48vh;
     width: 480px;
     left: 10%;
@@ -102,9 +102,6 @@ img.logo-img {
     font-size: 16px;
     font-family: b;
     transition: background .6s,color cubic-bezier(.87,0,.13,1) .6s;
-    position: absolute;
-    right: -1px;
-    bottom: 90px;
 }
 .bottom-page1>a:hover{
     background-color: #3426f6;
@@ -115,7 +112,7 @@ img.logo-img {
     font-size: 1.3vw;
     font-weight: 100;
     color: #fff;
-    line-height: 28px;
+    line-height: 47px;
 }
 #page2{
     display: flex;
@@ -577,8 +574,8 @@ nav a {
     margin: 0.5rem 0;
     padding: 1rem 1rem;
     transition: transform 0.35s ease;
-    font-size: 30px;
-    line-height: 43px;
+    font-size: 27px;
+    line-height: 38px;
     font-weight: 900;
     text-transform: uppercase;
     color: #3f3b3b;
