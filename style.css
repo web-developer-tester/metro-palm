@@ -570,6 +570,7 @@ nav {
 nav ul {
     margin: 5rem 0 0;
     padding: 0;
+    display: inline-block;
 }
 nav li {
   list-style: none; }
@@ -603,13 +604,10 @@ nav.open a {
    }
 
 nav.open .nav-toggle {
-  opacity: 0.5;
     font-size: 24px;
-    background-color: #364ba0;
     padding: 12px;
     color: #fff;
-    display: inline-block;
-    float: right;
+    float: left;
 }
 
 .back {
@@ -666,8 +664,9 @@ section.raw-structure {
 }
 /*** Category ***/
 .cat-item div {
-    background: #FFFFFF;
+  background: #1137ca;
     transition: .5s;
+    color: #fff !important;
 }
 
 .cat-item:hover div {
