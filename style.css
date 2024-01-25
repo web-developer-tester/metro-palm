@@ -115,7 +115,7 @@ img.logo-img {
     line-height: 23px;
     margin: 0;
     padding: 0;
-    margin-bottom: 18px;
+    margin-bottom: 27px;
 }
 #page2{
     display: flex;
@@ -132,13 +132,14 @@ img.logo-img {
 }
 #page2>h2{
     margin-bottom: 3vw;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 40px;
 }
 #page2>h1 {
     font-weight: 100;
     line-height: 1.2;
     width: 100%;
-    font-size: 3vw;
+    font-size: 38px;
     color: #dadada69;
 }
 .mg-team-item {
@@ -235,13 +236,13 @@ img.logo-img {
 }
 #page4>h2{
     margin-bottom: 2vw;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
-    font-size: 2vw;
+    font-size: 40px;
 }
 #page4>h1{
     width: 100%;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 100;
     color: #ffffff81;
 }
@@ -268,12 +269,13 @@ img.logo-img {
     font-family: a;
 }
 #page6>h2 {
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     margin-bottom: 3vw;
+    font-size: 40px;
 }
 #page6>h1 {
-    font-size: 40px;
+    font-size: 38px;
     width: 100%;
     font-weight: 100;
     color: #ffffff53;
@@ -644,7 +646,7 @@ nav.open .nav-toggle {
     overflow: hidden;
 }
 .right-content1 {
-    background-color: #09101b;
+    background-color: #2f86b8;
     width: 50%;
     float: right;
     height: 384px;
@@ -682,9 +684,9 @@ section.raw-structure {
 }
 .icon img {
     transition: transform .7s ease-in-out;
-    background-color: #1137ca;
-    padding: 10px;
-    border-radius: 31px;
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px dotted #1137ca;
 }
 .icon img:hover {
     transform: rotate(360deg);
