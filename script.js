@@ -6,7 +6,7 @@ var otvshows= $('.section-otv-shows').owlCarousel({
     autoplayTimeout:5000,
     responsiveClass:true,
     autoplayHoverPause:true,
-    nav:true,
+    nav:false,
     lazyLoad:true,
     responsive:{
         0:{
@@ -221,8 +221,8 @@ function scaleImage(img, ctx) {
   var hRatio = canvas.width / img.width;
   var vRatio = canvas.height / img.height;
   var ratio = Math.max(hRatio, vRatio);
-  var centerShift_x = (canvas.width - img.width * ratio) / 2;
-  var centerShift_y = (canvas.height - img.height * ratio) / 2;
+  var centerShift_x = (canvas.width - img.width * ratio) / 4;
+  var centerShift_y = (canvas.height - img.height * ratio) / 4;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(
     img,
