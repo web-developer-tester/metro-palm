@@ -844,4 +844,25 @@ ul.footer-bar-social li a:hover {
     border-right: 1px solid #45474c;
 }
 /*============= //FOOTER ================*/
+ul.breaking-newsticker span {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+ul.breaking-newsticker span button {
+    margin: 0px 0px 0px 5px;
+    background-color: #efe9e9;
+    border: none;
+    height: 25px;
+    width: 25px;
+    font-size: 11px;
+    line-height: 25px;
+    border-radius: 3px;
+    transition-duration: .5s;
+    outline: none;
+}
+ul.breaking-newsticker span button:hover {
+    background-color: #f3b11c;
+    transition-duration: .5s;
+}
 
