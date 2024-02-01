@@ -575,7 +575,7 @@ nav li {
 nav a {
     display: block;
     margin: 0.5rem 0;
-    padding: 1rem 1rem;
+    padding: 13px 13px;
     transition: transform 0.35s ease;
     font-size: 29px;
     line-height: 18px;
@@ -872,7 +872,7 @@ ul.footer-bar-social li a:hover {
 #meny {
     background: #fff;
     width: 26rem;
-    height: auto;
+    height: 100vh;
     position: fixed;
     right: 0;
     transition-timing-function: cubic-bezier(10,2,3,1);
