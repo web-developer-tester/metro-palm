@@ -278,7 +278,7 @@ header>img{
 }
 #page7{
     padding: 30px 0px;
-    background-color: #1137ca;
+    background-color: #5b79b7;
 }
 .gallery-heading {
     font-weight: 500;
@@ -817,6 +817,7 @@ ul.footer-links li a:hover {
     display: block;
     color: #fff;
     font-size: 14px;
+    font-weight: 700;
 }
 ul.footer-bar-social {
     margin: 0px;
